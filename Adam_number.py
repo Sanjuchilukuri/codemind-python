@@ -1,0 +1,9 @@
+n=input()
+m=str(int(n)*int(n))
+j=n[::-1]
+k=str(int(j)*int(j))
+l=k[::-1]
+if(m==l):
+    print(True)
+else:
+    print("False")
